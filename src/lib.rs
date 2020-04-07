@@ -116,6 +116,7 @@ unsafe impl<T: 'static> Pod for *const T {}
 unsafe impl<T: 'static> Pod for *mut T {}
 
 unsafe impl<T: 'static> Pod for PhantomData<T> {}
+unsafe impl Pod for () {}
 
 unsafe impl<T: Pod> Pod for [T] {}
 
