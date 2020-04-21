@@ -24,3 +24,7 @@ nightly = []
 
 [dependencies]
 derive_pod = { path = "./derive_pod", version = "0.1", optional = true }
+
+[dev-dependencies]
+rand = "0.7"
+quickcheck = "0.9"
